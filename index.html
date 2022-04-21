@@ -55,24 +55,54 @@
     <!-- 3 Columnas-->
     <div id="columnas">
         <div class="row">
-            <div class="col">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
                         Col 1
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
                         Col 2
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-4">
                 <div class="card">
+                    <div class="card-header">
+                        Registra tu equipo
+                    </div>
                     <div class="card-body">
-                        Col 3
+                        <form>
+                            <div>
+                                <label class="form-label" for="frm_correo">
+                                    Correo
+                                </label>
+                                <input class="form-control" type="email"
+                                    id="frm_correo"/>
+                            </div>
+                            <div>
+                                <label class="form-label" for="frm_password">
+                                    Password
+                                </label>
+                                <input class="form-control" type="password"
+                                    id="frm_password"/>
+                            </div>
+                            <div>
+                                <label class="form-label" for="frm_nombre">
+                                    Nombre del equipo
+                                </label>
+                                <input class="form-control" type="text"
+                                    id="frm_nombre"/>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary" type="button" >
+                                    Registrar
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
